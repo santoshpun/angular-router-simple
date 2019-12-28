@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ContactListComponent implements OnInit {
   contacts: any = [];
 
+
   constructor() { }
 
   ngOnInit() {
+
     this.contacts = [
       {
         id: 1,
